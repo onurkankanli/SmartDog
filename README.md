@@ -1,7 +1,7 @@
 # SmartDog
-This is a Smart Dog project which can follow it's user and understand voice commands for controlling it
+This is a Smart Dog project which can follow it's user and understand voice commands for controlling it.
 
-It uses Ultrasonic sensor for sensing close objects/humans & It uses a PIR sensor for sensing the humans around the SmartDog
+Main microcontroller is Arduino for controlling basic hardware getting data from sensors and does the main logic in Arduino. Sensors are Ultrasonic sensor for sensing close objects/humans & It uses a PIR sensor for sensing the humans around the SmartDog. There is a second microcontroller for handling the speech recognition since speech recognition requires higher processing power using a Raspberry Pi 4 Model B for this would be a better approach. Python language is used for coding speech recognition and data from speech recognition is sent to Arduino using serial UART communication.
 
 This product can understand voice commands from the user using a USB Microphone that connects to the Raspberry PI
 
