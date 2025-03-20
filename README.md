@@ -16,6 +16,16 @@ All plastic parts of this product was 3-D modelled and printed.
 **Hardware schematic:**
 ![SmartDog_schematic](https://github.com/user-attachments/assets/2b661dd8-e501-42ba-a137-3f36a5ea565f)
 
+**Power consumption**
+| Name           | Quantity  | Operating voltage | Operating current |
+| -------------- | --------- | ---------------   | ----------------- |
+| HC-SR04        | 1         |        5V         |       15mA        |  
+| PIR Sensor     | 1         |        5V         |       23mA        |
+| SG90 Servo     | 1         |       4.8V        |       400mA       |
+| DC Motor       | 4         |     3V to 9V      |    (200mA) * 4    |
+| Rotary encoder | 1         |                   |                   |
+|                |           |                   |   Total: 1338mA   |
+
 **Final product:**
 ![dog_front](https://github.com/user-attachments/assets/a7a70898-8565-4927-a0f3-ee1c6ef55125)
 ![dog_side](https://github.com/user-attachments/assets/621af241-ec59-40ee-a459-493b7456ad90)
